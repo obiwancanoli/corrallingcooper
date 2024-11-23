@@ -39,14 +39,16 @@ def posting(num):
     # blog_url = "https://api.npoint.io/ec033ad7c14afde7ce19"
     # response = requests.get(blog_url)
     # all_posts = response.json()
+    current_year = datetime.datetime.now().year
     with open('blog.json') as json_file:
         posts = json.load(json_file)
-    return render_template("post.html", posts=posts, blog_id=num)
+    return render_template("post.html", posts=posts, blog_id=num, current_year=current_year)
 
 
 @app.route('/about.html')
 def about():
-    return render_template('about.html')
+    current_year = datetime.datetime.now().year
+    return render_template('about.html', current_year=current_year)
 
 
 

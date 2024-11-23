@@ -17,6 +17,42 @@
   }
 }
 
+.container {
+  animation: transitionIn 1.0s;
+}
+
+@keyframes transitionIn {
+  from {
+      opacity: 0;
+      transform: rotateX(-10deg);
+  }
+  to {
+    opacity: 1;
+    transform: rotateX(0);
+
+  }
+}
+
+
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05); /* Slightly increases the size */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); /* Adds a shadow for emphasis */
+}
+
+.hover-zoom {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hover-zoom:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+
 
 .card-link {
   display: block; /* Ensures the link covers the entire card */

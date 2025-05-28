@@ -39,9 +39,13 @@
             </div>
             <div class="col-12 col-lg-6 text-center">
               <h1 class="display-3 fw-bold text-body-emphasis lh-1 mb-3">{{ posts[blog_id]["title"] }}</h1>
-              <p class="fs-6 lh-1 mb-3">{{ posts[blog_id]["location"] }}</p>
-              <p class="fs-6 text-body-emphasis lh-1 mb-3">{{ posts[blog_id]["date"] }}</p>
-              <p class="lead">{{ posts[blog_id]["body"] }}</p>
+              
+              <div class="blog_location_container">
+                <p class="fs-6 lh-1 mb-3">{{ posts[blog_id]["location"] }}</p>
+                <p class="fs-6 text-body-emphasis lh-1 mb-3">{{ posts[blog_id]["date"] }}</p>
+              </div>
+
+              <p class="lead">{{ posts[blog_id]["body"].replace('\n', '<br>') | safe }}</p>
               <a href="/blog.html" class="btn btn-outline-info btn-lg px-4 me-md-2" role="button">Doggy Blog!</a>
           </div>
           

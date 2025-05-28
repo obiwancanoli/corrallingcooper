@@ -25,5 +25,12 @@
         "title":"My First Haircut",
         "date":"June 10, 2024",
         "location":"Long Beach, CA",
-        "image":"/static/june10.png"}
+        "image":"/static/june10.png"},
+
+    {"id":5,
+        "body":"Today was probably the best day of my life! My dad took me to the Huntington Beach Dog Beach and it did not disappoint. So many new friends wanted to sniff my butt and I totally let them. The water and sand were my favorite part because I was able to get the car all dirty on the ride home. I just want to be a beach doggo forever! Until next time! Cooper out...",
+        "title":"Getting Pitted at Huntington Dog Beach 🏝️",
+        "date":"June 19, 2024",
+        "location":"Huntington Beach, CA",
+        "image":"/static/june19.png"}
 ]

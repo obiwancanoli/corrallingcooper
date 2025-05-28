@@ -39,5 +39,12 @@
         "title":"Meeting Doggos-of-the-Sea",
         "date":"August 24, 2024",
         "location":"Morro Bay, CA",
-        "image":"/static/aug24.png"}
+        "image":"/static/aug24.png"},
+
+    {"id":7,
+        "body":"Daddy had to take me to the vet today. Don’t worry, everything is ok! I  just have to get my updated doggy shots. I don’t like it but my daddy is always there to make sure I am ok. The vets at Primary Care here in Long Beach treat me with so much love and attention. Until next time!\n\nCooper out...",
+        "title":"Getting My Updated Shots! ❤️‍🩹",
+        "date":"September 30, 2024",
+        "location":"Long Beach, CA",
+        "image":"/static/sept30.png"}
 ]
